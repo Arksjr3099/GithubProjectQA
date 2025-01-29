@@ -24,6 +24,7 @@ public class LoginPages {
 
         WebElement SignInBtn = driver.findElement(signIn);
         SignInBtn.click();
+
     }
 
 
