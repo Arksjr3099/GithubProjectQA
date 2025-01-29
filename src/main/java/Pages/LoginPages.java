@@ -55,12 +55,12 @@ public class LoginPages {
 
     public void fillEmail(){
         WebElement Email = driver.findElement(email);
-        Email.sendKeys("arksjr3099@gmail.com");
+        Email.sendKeys("");
     }
 
     public void fillPassword(){
         WebElement pass = driver.findElement(password);
-        pass.sendKeys("123456789!QAZa");
+        pass.sendKeys("");
     }
 
     public void ClickOnSignIn (){
